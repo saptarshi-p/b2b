@@ -1,0 +1,494 @@
+html{
+    box-sizing: border-box;
+    padding: none;
+    margin: -10px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+
+body{
+    position: relative;
+    background-image: url(./images/bga.svg);
+    padding-left: 17%;
+    height:970px;
+    font-family: 'Manrope', sans-serif;
+}
+
+
+i{
+    padding-top: 10px;
+    font-size: 10px;
+}
+
+.nav_list_items>a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    padding: 13px;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 15px;
+    color: #777777;
+    font-weight: 600;
+}
+
+.sign_in{
+    display: flex;
+    margin-left: 250px;
+    flex-direction: row;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_in_items_2{
+    margin-left: 20px;
+    border-style:solid ; 
+    padding:5px 20px; 
+    border-color:#F44336; 
+    border-width:1px; 
+    border-radius:3px
+}
+
+.sign_in_items_2>a{
+    text-decoration: none;
+    color: #F44336;
+}
+
+.sign_in_items_1{
+    color: #F44336;
+    font-weight: normal;
+}
+
+.sign_in_items_1>a{
+    text-decoration: none;
+    color: #777777;
+    font-weight: 600;
+}
+
+.nav_list_items{
+    padding: 0px 15px;
+}
+
+.navigation{
+display: inline-flex;
+}
+
+.body1{
+    padding-top: 100px ;
+    padding-left: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #F44336;
+    font-family: 'Manrope';
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    margin: 10px;
+  }
+
+.bd_txt_h{
+    background-color:#F7F7F7;
+    color: #F44336;
+}
+  
+.bd_txt{
+    width: 450px;
+    font-family: 'Manrope';
+    font-style: bold;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -1px;
+}
+
+.bd_sub_txt{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+.bd2_txt{
+    background-color: white;
+    position: absolute;
+    width: 1277.56px;
+    height: 49px;
+    left: 336.49px;
+    top: 1130.55px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.logo1{
+    position: absolute;
+    width: 274.38px;
+    height: 74.48px;
+    left: 253.38px;
+    top: 1270.81px;
+
+}
+
+.logo2{
+    position: absolute;
+    width: 203.74px;
+    height: 55.31px;
+    left: 619.56px;
+    top: 1280.4px;
+}
+
+.logo3{
+    position: absolute;
+    width: 203.74px;
+    height: 55.31px;
+    left: 880.56px;
+    top: 1275.4px
+}
+
+.logo4{
+    position: absolute;
+    width: 210.4px;
+    height: 64.36px;
+    left: 1139.76px;
+    top: 1275.87px;
+}
+
+.logo5{
+    position: absolute;
+    width: 154.49px;
+    height: 44.31px;
+    left: 1441.96px;
+    top: 1285.9px;
+
+}
+
+.logo6{
+    position: absolute;
+    width: 132px;
+    height: 29px;
+    left: 1635.85px;
+    top: 1290.3px;
+}
+
+.logo7{
+    position: absolute;
+    width: 274.38px;
+    height: 74.48px;
+    left: 253.38px;
+    top: 1370.81px;
+
+}
+
+.logo8{
+    position: absolute;
+    width: 203.74px;
+    height: 55.31px;
+    left: 619.56px;
+    top: 1380.4px;
+}
+
+.logo9{
+    position: absolute;
+    width: 203.74px;
+    height: 55.31px;
+    left: 880.56px;
+    top: 1375.4px
+}
+
+.logo10{
+    position: absolute;
+    width: 210.4px;
+    height: 64.36px;
+    left: 1139.76px;
+    top: 1375.87px;
+}
+
+.logo11{
+    position: absolute;
+    width: 154.49px;
+    height: 44.31px;
+    left: 1441.96px;
+    top: 1385.9px;
+
+}
+
+.logo12{
+    position: absolute;
+    width: 132px;
+    height: 29px;
+    left: 1635.85px;
+    top: 1390.3px;
+}
+
+.body3bg{
+    position: absolute;
+    width: 1924.27px;
+    height: 739px;
+    left: -2.27px;
+    top: 1595.23px;
+}
+
+
+.bd3_h{
+
+    position: absolute;
+    width: 519.42px;
+    height: 49px;
+    left: 1090.93px;
+    top: 1786.95px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -1px;
+}
+
+.bd3_s{
+    padding-top: 20px;
+    position: absolute;
+    width: 501.33px;
+    height: 101.55px;
+    left: 1094.16px;
+    top: 1855.95px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+
+
+.ss{
+    position: absolute;
+    width: 686px;
+    height: 428.77px;
+    left: 325.19px;
+    top: 1790.18px;
+    border-radius: 5px;
+}
+
+.overlay{
+    position: absolute;
+    left: 635px;
+    top:1920.18px;
+}
+
+
+.body4{
+    position: absolute;
+    width: 1924.27px;
+    height: 739px;
+    left: 0px;
+    top: 2334.12px;
+    padding-left: 200px;
+    background-image: url(./images/bd4bg.png);
+    display: flex;
+    flex-direction: row;
+}
+
+.bd4_text{
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bd4_text_box_1{
+    background-color: white;
+    border-radius: 15px;
+    width:300px;
+    text-align:left; 
+    vertical-align: middle; 
+    padding:20px 47px;
+}
+
+.bd4_text_box_2{
+    background-color: white;
+    border-radius: 15px;
+    width:300px;
+    text-align:left; 
+    vertical-align: middle; 
+    padding:20px 47px;
+    margin-top: 0px;
+}
+
+.body5{
+    position: absolute;
+    top: 3073.12px;
+    width: 1924.27px;
+    height: 739.88px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 170px;
+}
+
+.bd5logof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.bd5logos{
+    margin-left: -50px;
+    margin-bottom: 50px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bd5logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.body6{
+    position: absolute;
+    width: 1924.27px;
+    height: 981.28px;
+    left: -0.03px;
+    top: 3876.96px;
+    background-image: url(./images/bd6bg.png);
+    background-repeat: no-repeat;
+}
+
+.bd6cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body7{
+    position: absolute;
+    width: 1920.24px;
+    height: 408.87px;
+    left: -0.24px;
+    top: 4857.99px;
+    background-image: url(./images/bd7bg.png);
+}
+
+.bd7cont{
+    margin-top: 100px;
+    color:white;
+    width: 1900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ttbtn{
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    font-family: Manrope;
+    font-weight: 600;
+}
+
+.body8{
+    position: absolute;
+    width: 1928.45px;
+    height: 295.64px;
+    left: 0px;
+    top: 5265.86px;
+    background-color: #F7F7F7;
+}
+
+.bd8cont{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bd8cont0{
+    display: flex;
+    flex-direction: row;
+}
+
+.bd8cont0>div>ul{
+    list-style:none ;
+    line-height: 50px;
+}
+
+.body9{
+    position: absolute;
+    width: 1928.45px;
+    height: 134.21px;
+    left: -5.3px;
+    top: 5561.5px;
+}
+
+.footertxt{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 255px;
+}
+
+.footertxt>li>a{
+    text-decoration: none;
+    color: #777777;
+    padding: 10px 20px;
+}
+
+.bd9cont{
+    display: flex;
+    flex-direction: row;
+}
